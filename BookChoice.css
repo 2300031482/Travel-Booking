@@ -1,0 +1,71 @@
+/* BookChoice.css */
+
+.bookchoice-container {
+  background-color: #e8f0fe; /* Soft classic background */
+  min-height: 100vh;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.bookchoice-container h2 {
+  font-size: 2.5rem;
+  color: #3f51b5;
+  margin-bottom: 40px;
+}
+
+.options-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.option-card {
+  background-color: white;
+  width: 280px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.option-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.option-card h3 {
+  color: #303f9f;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.option-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.btn-book {
+  display: inline-block;
+  background-color: #3f51b5;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-book:hover {
+  background-color: #303f9f;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .options-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

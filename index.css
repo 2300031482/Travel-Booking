@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  line-height: 1.6; /* Improves readability */
+  color: #333; /* Sets a default text color */
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Keeps the color inherited from parent elements */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+a:hover {
+  color: #3498db; /* Adds color on hover for better UX */
+}

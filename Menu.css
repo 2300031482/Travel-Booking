@@ -1,0 +1,30 @@
+.menu {
+  background-color: #333;  /* Dark background for the menu */
+  padding: 10px;
+  text-align: center;  /* Centers the menu */
+}
+
+.menu-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;  /* Flexbox to align items horizontally */
+  justify-content: center;  /* Centers the items */
+}
+
+.menu-item {
+  margin: 0 20px;  /* Adds space between the menu items */
+}
+
+.menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item a:hover {
+  background-color: #555;  /* Hover effect */
+}
